@@ -10,6 +10,93 @@
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
-
+    <div class="back_graund">
+      <div class="entry_form">
+        <h1 class="form_title">アカウント作成</h1>
+        <div class="sns_button">
+            <div class="button">
+              <a class="facebook button_text" href="">Facebookでスタート</a>
+            </div>
+            <div class="button">
+              <a class="google button_text" href="">Googleでスタート</a>
+            </div>
+        </div>
+        <p class="sns_notice">タイムラインへ投稿を行うことや、アカウント情報を伝えることはありません。</p>
+        <div class="information">
+          <p class="information_text">アカウント情報</p>
+        </div>
+        <form class="form" action="" method="POST">
+          <div class="item fullname">
+            <div class="name">
+              <p class="item_text">
+                "名字"
+                <span class="alert">※</span>
+              </p>
+              <input class="input_box" type="text" name="family_name" required>
+            </div>
+            <div class="name">
+              <p class="item_text">
+                "名前"
+                <span class="alert">※</span>
+              </p>
+              <input class="input_box" type="text" name="first_name" required>
+            </div>
+          </div>
+          <div class="item gender">
+            <p  class="item_text">性別</p>
+            <div class="gender_options">
+              <label class="gender_option">
+                <input class="input_gender" type="radio" name="gender" value="male">
+                <span>"男性"</span>
+              </label>
+              <label class="gender_option">
+                <input class="input_gender" type="radio" name="gender" value="female">
+                <span>"女性"</span>
+              </label>
+              <label class="gender_option">
+                <input class="input_gender" type="radio" name="gender" value="other">
+                <span>"その他"</span>
+              </label>
+            </div>
+          </div>
+          <div class="item birthplace">
+            <p class="item_text">出身</p>
+            <div class="place_option">
+              <select class="input_place" name="birthplace" id="birthplace">
+                <option value="東京">東京</option>
+                <option value="千葉">千葉</option>
+                <option value="埼玉">埼玉</option>
+                <option value="神奈川">神奈川</option>
+              </select>
+            </div>
+          </div>
+          <div class="item e-mail">
+            <p class="item_text">
+              "Eメール"
+              <span class="alert">※</span>
+            </p>
+            <input class="input_e-mail" type="email" name="e-mail" placeholder="ex)hoge@example.com" required>
+          </div>
+          <div class="item number">
+            <p class="item_text">電話番号</p>
+            <input class="input_number" type="tel" name="number" placeholder="ex)09012345678">
+          </div>
+          <div class="item password">
+            <p class="item_text">
+              "パスワード"
+              <span class="alert">※</span>
+            </p>
+            <input class="input_password" type="password" name="password" required>
+          </div>
+          <div class="item password">
+            <p class="item_text">
+              "パスワード(確認用)"
+              <span class="alert">※</span>
+            </p>
+            <input class="input_password" type="password" name="password" required>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
