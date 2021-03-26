@@ -1,1 +1,91 @@
 @charset "utf-8";
+
+.wrapper{
+  background-color: #f2f6f7;
+  padding: 32px 0;
+}
+
+.inner{
+  margin: 0 auto;
+  width: 640px;
+}
+
+.entry_form{
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 rgb(0 0 0 / 18%);
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  padding: 48px 64px;
+}
+
+.form_title{
+  color: #222;
+  font-size: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.sns_buttons{
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.halfwidth{
+  width: 50%;
+}
+
+.facebook{
+  background-color: #3b5999;
+  border-color: #3b5999;
+  color: #fff
+}
+
+.sns_button{
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 13px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.google{
+  background-color: #fff;
+  color: #dd4b39;
+}
+
+.sns_notice{
+  color: #949697;
+  font-size: 12px;
+  text-align: center;
+}
+
+.information{
+  margin: 20px 0;
+  position: relative;
+  text-align: center;
+}
+
+.information::before{
+  background-color: #ececec;
+  content: "";
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.information_text{
+  color: #949697;
+  font-size: 12px;
+}
+
+.form{
+  display: block;
+}
