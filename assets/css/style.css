@@ -89,3 +89,36 @@
 .form{
   display: block;
 }
+
+.item{
+  margin-bottom: 20px;
+}
+
+.name{
+  float: left;
+  margin-bottom: 20px;
+}
+
+.item_text{
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.alert{
+  color: #dd4b39;
+}
+
+.input{
+  height: 30px;
+}
+
+.gender_option{
+  cursor: pointer;
+
+}
+
+.input_gender{
+  bottom: 3px;
+  cursor: pointer;
+  position: relative;
+}
