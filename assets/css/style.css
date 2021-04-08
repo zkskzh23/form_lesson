@@ -31,6 +31,18 @@
   margin-bottom: 8px;
 }
 
+.button{
+  margin-left: 10px;
+}
+
+.button:first-child{
+  margin-left: 0;
+}
+
+.fullwidth{
+  width: 100%;
+}
+
 .halfwidth{
   width: 50%;
 }
@@ -49,7 +61,7 @@
   display: inline-block;
   font-size: 13px;
   font-weight: 500;
-  padding: 13px;
+  padding: 13px 67px;
   text-align: center;
   transition: 0.3s;
 }
@@ -94,14 +106,23 @@
   margin-bottom: 20px;
 }
 
+.fullname{
+  display: flex;
+}
+
 .name{
-  float: left;
-  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.name:first-child{
+  margin-left: 0;
 }
 
 .item_text{
+  color: #545658;
+  display: block;
+  font-size: 12px;
   margin-bottom: 5px;
-  font-size: 13px;
 }
 
 .alert{
@@ -109,16 +130,60 @@
 }
 
 .input{
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  color: #545658;
   height: 30px;
+  width: 100%;
 }
 
 .gender_option{
   cursor: pointer;
-
+  color: #545658;
 }
 
 .input_gender{
   bottom: 3px;
   cursor: pointer;
   position: relative;
+}
+
+.course_name{
+  margin-top: 5px;
+}
+
+.course_name:first-child{
+  margin-top: 0;
+}
+
+.course_name_text{
+  color: #545658;
+}
+
+.input_remarks{
+  height: 100px;
+}
+
+.input_button{
+  background-color: #01bfbd;
+  color: #fff;
+  height: 50px;
+}
+
+.agreement{
+  font-size: 12px;
+}
+
+.link{
+  color: #01a6a4;
+  display: inline-block;
+}
+
+.footer{
+  font-size: 12px;
+  text-align: center;
+}
+
+.resend_mail{
+  margin-top: 10px;
 }

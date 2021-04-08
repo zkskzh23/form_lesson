@@ -15,12 +15,12 @@
         <div class="entry_form">
           <h1 class="form_title">アカウント作成</h1>
           <div class="sns_buttons">
-              <div class="button halfwidth">
-                <a class="facebook sns_button" href="">Facebookでスタート</a>
-              </div>
-              <div class="button halfwidth">
-                <a class="google sns_button" href="">Googleでスタート</a>
-              </div>
+            <div class="button">
+              <a class="facebook sns_button" href="">Facebookでスタート</a>
+            </div>
+            <div class="button">
+              <a class="google sns_button" href="">Googleでスタート</a>
+            </div>
           </div>
           <p class="sns_notice">タイムラインへ投稿を行うことや、アカウント情報を伝えることはありません。</p>
           <div class="information">
@@ -47,15 +47,15 @@
               <p class="item_text">性別</p>
               <div class="gender_options">
                 <label class="gender_option">
-                  <input class="input input_gender" type="radio" name="gender" value="male">
+                  <input class="input_gender" type="radio" name="gender" value="male">
                   <span class="outside"><span class="inside"></span></span>男性
                 </label>
                 <label class="gender_option">
-                  <input class="input input_gender" type="radio" name="gender" value="female">
+                  <input class="input_gender" type="radio" name="gender" value="female">
                   <span class="outside"><span class="inside"></span></span>女性
                 </label>
                 <label class="gender_option">
-                  <input class="input input_gender" type="radio" name="gender" value="other">
+                  <input class="input_gender" type="radio" name="gender" value="other">
                   <span class="outside"><span class="inside"></span></span>その他
                 </label>
               </div>
@@ -76,11 +76,11 @@
                 Eメール
                 <span class="alert">※</span>
               </p>
-              <input class="input input_e-mail" type="email" name="e-mail" placeholder="ex)hoge@example.com" required>
+              <input class="input input_e-mail" type="email" name="e-mail" placeholder=" ex) hoge@example.com" required>
             </div>
             <div class="item number fullwidth">
               <p class="item_text">電話番号</p>
-              <input class="input input_number" type="tel" name="number" placeholder="ex)09012345678">
+              <input class="input input_number" type="tel" name="number" placeholder=" ex) 09012345678">
             </div>
             <div class="item password fullwidth">
               <p class="item_text">
@@ -138,7 +138,7 @@
             すでにアカウントをお持ちですか？
           <a class="link" href="">ログイン</a>
           </p>
-          <a class="link" href="">認証メールが届きませんか？</a>
+          <a class="link resend_mail" href="">認証メールが届きませんか？</a>
         </footer>
       </div>
     </section>
