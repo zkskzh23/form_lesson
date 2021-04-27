@@ -145,9 +145,12 @@
   font-size: 13px;
   height: 36px;
   line-height: 2;
-  outline-color: #05cfcc27;
   padding: 5px;
   width: 100%;
+}
+
+.input:focus{
+  outline-color: #05cfcc27;
 }
 
 .gender_options{
