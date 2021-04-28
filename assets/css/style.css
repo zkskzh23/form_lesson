@@ -145,12 +145,14 @@
   font-size: 13px;
   height: 36px;
   line-height: 2;
+  outline: none;
   padding: 5px;
   width: 100%;
 }
 
 .input:focus{
-  outline-color: #05cfcc27;
+  border: 1px solid #d9d9d9;
+  box-shadow: 0 0 3px #04e2ded8;
 }
 
 .gender_options{
